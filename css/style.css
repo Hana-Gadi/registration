@@ -1,0 +1,58 @@
+
+body{
+    background-color:#24353F;
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+
+
+/* Login Page */
+.login-div{
+   width:65%;
+   box-shadow: -5px 2px 54px -9px;
+}
+
+
+ h1{
+   font-size: 2.5rem;
+   margin-top: .5rem;
+   font-weight: 500;
+ }
+
+
+ input{
+   background-color: inherit !important;
+ }
+
+ input[placeholder]{
+   color:white !important;
+ }
+
+/* 
+ div.mb-3 input[placeholder]{
+   color:white !important;
+ } */
+
+
+ button:hover{
+   color: white !important;
+
+ }
+
+ a{
+   text-decoration: none;
+   transition:all .5s;
+ }
+
+
+ a:hover{
+   text-decoration: underline;
+ }
+
+
+/* Home Page */
+ .navbar{
+   background-color:#24353F; 
+   box-shadow: -5px 2px 54px -9px;
+ }

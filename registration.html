@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="login-div text-center m-auto mt-5 p-5">
+        <h1>Smart Login System</h1>
+
+        <form>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your Name">
+              </div>
+
+              <div class="alert text-danger p-1 d-none namevalid" role="alert">
+                user name includes characters and numbers and must be more than 3 characters
+              </div>
+
+            <div class="mb-3">
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your Email">
+            </div>
+
+            <div class="alert text-danger p-1 d-none emailvalid" role="alert">
+              Invalid Email Address
+            </div>
+
+            <div class="mb-3">
+              <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <div class="alert text-danger p-1 d-none passwordvalid" role="alert">
+             Password must include uppercase and lowercase letters and numbers and special characters and not less than 8 
+            </div>
+
+            <div class="alert text-danger p-1 d-none errorMsg" role="alert">
+                All inputs are required
+              </div>
+
+            <div class="alert text-success p-1 d-none  successMsg" role="alert">
+                success
+              </div>
+
+            <button type="button" class="btn btn-outline-info w-100 mb-3" id="signupBtn">Sign Up</button>
+          </form>
+          <p class="text-white">You have an account? <a href="index.html" class="text-white"> Signin</a> </p>
+    </div>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
